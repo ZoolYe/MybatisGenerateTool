@@ -100,5 +100,5 @@ cat > generator.xml <<EOF
 EOF
 
 # 执行Maven构建
-# mvn mybatis-generator:generat(bug)
-mvn org.mybatis.generator:mybatis-generator-maven-plugin:1.3.7:generate
+mvn mybatis-generator:generate
+# mvn org.mybatis.generator:mybatis-generator-maven-plugin:1.3.7:generate
